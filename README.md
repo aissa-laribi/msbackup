@@ -27,9 +27,8 @@ For help, check: https://dev.to/aissalaribi/how-to-backup-locally-a-remote-mysql
 ---
 ## Installation From Source
 ---
-To install the package after you've cloned the repository, you'll 
-want to run the following command from within the project directory:
-
+To install the package after you've cloned the repository, 
+run the following command from within the project directory:
 
 $ pip install --user -e
 
