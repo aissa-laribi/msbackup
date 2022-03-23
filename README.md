@@ -1,7 +1,7 @@
 msbackup
 ========
 
-CLI for backing up remote PostgreSQL databases locally or to AWS S3.
+CLI for backing up remote MySQL databases locally or to AWS S3.
 
 #Usage
 
