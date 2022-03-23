@@ -16,7 +16,7 @@ Local Example w/ local path:
 $ msbackup bob 54.132.1.23 employees --driver local /var/local/db_name/backups  
 
 ---
-##Prerequisites
+Prerequisites
 ---
 AWS CLI installed and configured with the correct credentials
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
