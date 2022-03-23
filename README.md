@@ -9,34 +9,33 @@ Pass in full database URL, the storage driver, and the destination.
 
 S3 Example w/ bucket name:
 
----
 $ msbackup bob 54.132.1.23 employees --driver local /var/local/db_name/backups
----
 
 Local Example w/ local path:
 
----
 $ msbackup bob 54.132.1.23 employees --driver local /var/local/db_name/backups  
+
 ---
-
 ##Prerequisites
-
+---
 AWS CLI installed and configured with the correct credentials
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 Access to a Remote MySQL Server allowing connections from your username and host
 For help, check: https://dev.to/aissalaribi/how-to-backup-locally-a-remote-mysql-database-on-linux-5e8e
 
+---
 ## Installation From Source
-
+---
 To install the package after you've cloned the repository, you'll 
 want to run the following command from within the project directory:
 
----
-$ pip install --user -e
----
 
+$ pip install --user -e
+
+---
 ## Preparing for Development
+---
 
 Follow these steps to start developing with this project:
 
