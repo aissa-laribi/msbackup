@@ -9,7 +9,7 @@ Pass in full database URL, the storage driver, and the destination.
 
 S3 Example w/ bucket name:
 
-$ msbackup bob 54.132.1.23 employees --driver local /var/local/db_name/backups
+$ msbackup bob 54.132.1.23 employees --driver s3 bucketname
 
 Local Example w/ local path:
 
