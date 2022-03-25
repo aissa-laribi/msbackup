@@ -3,7 +3,7 @@ msbackup
 
 CLI for backing up remote MySQL databases locally or to AWS S3.
 
-#Usage
+## Usage
 
 Pass in full database URL, the storage driver, and the destination.
 
